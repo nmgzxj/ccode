@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 {
     int i;
     char *word;
-    clrscr();
+    //#clrscr();
     printf("Input file name:");
     scanf("%s",fname);
     if((cp=fopen(fname,"r"))==NULL){
